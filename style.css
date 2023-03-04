@@ -1,0 +1,56 @@
+body {
+    background-image: url(image.jpg);
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.546);
+    padding: 100px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-color: aliceblue;
+}
+
+.searching {
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 20px;
+    width: 70px;
+    font-family: "Geomatrix";
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.title{
+    font-size: 60px;
+    color: aliceblue;
+    font-family: "Geomatrix";
+    text-align: center;
+}
+
+.scroll{
+    font-size: 20px;
+    color: yellow;
+}
+
+.rec{
+    width: 100%;
+    background-color: black;
+    border-width: 2px;
+    font-family: "Montserrat";
+}
+
+#searcher{
+    font-family: "Montserrat";
+    width: 300px;
+    font-size: 20px;
+}
